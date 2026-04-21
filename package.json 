@@ -1,0 +1,20 @@
+{
+  "name": "Vibecoding-WebDesign",
+  "scripts": {
+    "dev": "vite",           // 启动开发服务器
+    "build": "vite build",   // 构建生产版本
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"  // 部署到 GitHub Pages
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "gh-pages": "^6.1.1",    // GitHub Pages 部署工具
+    "vite": "^5.0.8"
+  }
+}
